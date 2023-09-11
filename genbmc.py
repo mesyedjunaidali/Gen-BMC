@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 import pandas as pd
 
-openai.api_key = "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"
+openai.api_key = "OPENAI_API_KEY"
 
 def BasicGeneration(userPrompt):
     completion = openai.ChatCompletion.create(
